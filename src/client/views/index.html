@@ -46,11 +46,13 @@
       
         <div id="main_information">
         <img id="destination_image" src="image/travel1.png" alt="desitination image">
+        <div class=main_forms>
         <div><b>Boarding from: </b> <span id="boarding"> Edmonton</span></div>
         <div><b>Your trip to: </b><span id="destination"> Toronto</span></div>
         <div><b>Departing: </b><span id="departing_date"> 2021-02-22</span></div>
         <div><b>Days away:</b><span id="days_away">  2</span></div>
         <div><b>Expect weather to be: </b><span id="temperature"> -16</span> °C, mostly <span id="weather_condition">snowy</span></div>
+        </div>
         <div>
           <button id="remove_trip">Remove</button>
         </div>
@@ -58,6 +60,15 @@
      </section>
   </div>
   <footer>Made by Xiaohua Cai</footer>
+  <script>
+    // Check that service workers are supported
+    if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+   </script>
 </body>
 </html>
 
