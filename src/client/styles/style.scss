@@ -1,0 +1,104 @@
+
+body{
+    margin:0;
+}
+/*first-page*/
+#about{
+    text-align:center
+}
+
+ h1{
+    text-align:center;
+    font-family:'Sacramento', cursive;
+    font-size:100px;
+}
+#first-image{
+    text-align:center;
+}
+.travel1{
+    width:29%;
+    height:auto;
+}
+.travel-quote{
+    font-size:26px;  
+    width:50%;
+    margin: 0 auto;
+    padding:4px;
+}
+
+/*button*/
+.planNow{
+    background-color:#00a3e4;
+    font-size:25px;
+    padding:15px 30px;
+    color:white;
+    border-radius:8px;
+    margin-bottom:2%;
+    }
+    .planNow:hover{
+    background-color:#20bf62;
+    color:black;
+    }
+
+/*plan_trip*/
+#plan_trip{
+    background-image: linear-gradient(315deg, #20bf62 5%, #01baef 70%);
+    text-align:center;
+    margin-top:5%;
+}
+.travel2{
+    width: 18%;
+    height:18%;
+    padding-top:3%;
+}
+h2{
+    font-size:3rem;
+}
+
+#plan_form input{
+    font-size:25px;
+}
+#plan_form label{
+    font-size:25px;
+}
+#travel_submit{
+    margin-top:4%;
+    margin-bottom:8%;
+    padding:10px 25px;
+    text-align:center;
+    border-radius:8px;
+}
+#travel_submit:hover{
+    background-color:#20bf7d;
+    color:white;
+    }
+
+  /*trip_information*/
+    #destination_image{
+    
+        width: 15vw;
+        height: 15vw;
+        margin:40px 0px;
+        border-radius: 50%;
+    }
+    
+    #main_information {
+        text-align:center;
+        font-size:30px;
+    }
+    #remove_trip{
+        margin-top:4%;
+        margin-bottom:8% ;
+        padding:10px 25px;
+        text-align:center;
+        border-radius:8px;
+        font-size:30px;
+        background-color:#20bf7d;
+    }
+    #remove_trip:hover{
+        background-color:#20acbf;
+        color:white;}
+
+    .invisible{
+    display: none !important;
+}
