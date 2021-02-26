@@ -1,4 +1,4 @@
-alert("i exist")
+
 import {handleSubmit} from "./js/handleSubmit";
 import{planNow} from "./js/app.js";
 

@@ -13,10 +13,10 @@ function handleSubmit(e){
     const travelDate=document.getElementById("travel_date").value;
     const url=`${geoNameURL}${toPlace}&maxRows=10&username=xiaohua`;
 
-    let diff_day = function (date1) {
-        let dt1 = new Date(date1);
-        let dt2 = new Date();
-        return Math.floor((Date.UTC(dt1.getFullYear(), dt1.getMonth(), dt1.getDate()) - Date.UTC(dt2.getFullYear(), dt2.getMonth(), dt2.getDate())) / (1000 * 60 * 60 * 24));
+    const diff_day = function (travel_date) {
+        let d1 = new Date(travel_date);
+        let d2 = new Date();
+        return Math.floor((Date.UTC(d1.getFullYear(), d1.getMonth(), d1.getDate()) - Date.UTC(d2.getFullYear(), d2.getMonth(), d2.getDate())) / (1000 * 60 * 60 * 24));
         }
     const daysAway=diff_day(document.getElementById("travel_date").value);
   
@@ -48,7 +48,6 @@ function handleSubmit(e){
     }}).then((data)=>{
         updateUI(data)});
         })
-    //.then(updateUI(data));
     
 }
 

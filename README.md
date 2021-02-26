@@ -41,3 +41,7 @@ c. WeatherBit API: get weather data
     npm run build-dev
     npm run build-prod
     npm run start
+
+* Extend your Project/Ways to Stand Out sections
+ 
+ -A remove trip function was added, so the users are able to remove the trip. Specifically, when the user click the " remove " button, the "plan_form" will be reset (the "from" input text, "to" input text and "desitination date" input will become empty). Also, the "trip_information" section will become invisiable.
