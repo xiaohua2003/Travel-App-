@@ -37,7 +37,7 @@ c. WeatherBit API: get weather data
         
 
 * Install
-
+    npm install
     npm run build-dev
     npm run build-prod
     npm run start
