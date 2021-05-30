@@ -14,6 +14,8 @@ c. WeatherBit API: get weather data
   - npm run build-dev
   - npm run build-prod
   - npm run start
+* App Screenshot
+![Travel app](https://user-images.githubusercontent.com/72715756/120115792-a24eaf00-c142-11eb-83ce-2c291d0a6a8f.png)
 
 - Project Architecture
 
