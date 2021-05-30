@@ -16,6 +16,8 @@ c. WeatherBit API: get weather data
   - npm run start
 * App Screenshot
 ![Travel app](https://user-images.githubusercontent.com/72715756/120115792-a24eaf00-c142-11eb-83ce-2c291d0a6a8f.png)
+![Travel app2](https://user-images.githubusercontent.com/72715756/120115890-e6da4a80-c142-11eb-85e0-55dc446d133f.png)
+
 
 - Project Architecture
 
